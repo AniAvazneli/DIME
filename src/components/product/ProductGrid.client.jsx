@@ -1,8 +1,9 @@
 import {useState, useRef, useEffect, useCallback} from 'react';
 import {Link, flattenConnection} from '@shopify/hydrogen';
 
-import {Button, Grid, ProductCard} from '~/components';
+import {Button, Grid, ProductCard, DiscountPannel} from '~/components';
 import {getImageLoadingPriority} from '~/lib/const';
+
 
 export function ProductGrid({url, collection}) {
   const nextButtonRef = useRef(null);
@@ -83,9 +84,9 @@ export function ProductGrid({url, collection}) {
             product={product}
             loading={getImageLoadingPriority(i)}
           />
-        ))}
+        ))} 
       </Grid>
-
+      {/* <DiscountPannel/> */}
       {nextPage && (
         <div
           className="flex items-center justify-center mt-6"

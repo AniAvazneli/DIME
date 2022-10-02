@@ -10,6 +10,8 @@ import {
 import {Text} from '~/components';
 import {isDiscounted, isNewArrival} from '~/lib/utils';
 import {getProductPlaceholder} from '~/lib/placeholders';
+import { Button } from '../index';
+
 
 export function ProductCard({product, label, className, loading, onClick}) {
   let cardLabel;
@@ -80,7 +82,14 @@ export function ProductCard({product, label, className, loading, onClick}) {
             </Text>
           </div>
         </div>
+        <Button
+          className="w-full py-4 bg-black text-white rounded-lg"
+        >
+          Add to Bundle
+        </Button>
+        
       </div>
+      
     </Link>
   );
 }
