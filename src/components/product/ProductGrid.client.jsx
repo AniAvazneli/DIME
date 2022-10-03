@@ -50,6 +50,8 @@ export function ProductGrid({url, collection}) {
     [fetchProducts],
   );
 
+
+
   useEffect(() => {
     const observer = new IntersectionObserver(handleIntersect, {
       rootMargin: '100%',
@@ -75,18 +77,26 @@ export function ProductGrid({url, collection}) {
     );
   }
 
+
+  const [bundlePrise, setBundlePrise] = useState(0);
+  const addProduct =(price) =>{
+    setBundlePrise(bundlePrise + +price);
+  }
+  
+
   return (
     <>
       <Grid layout="products">
         {products.map((product, i) => (
           <ProductCard
+            priceAction={addProduct}
             key={product.id}
             product={product}
             loading={getImageLoadingPriority(i)}
           />
         ))} 
       </Grid>
-      {/* <DiscountPannel/> */}
+      <DiscountPannel totalPrice={bundlePrise}/>
       {nextPage && (
         <div
           className="flex items-center justify-center mt-6"

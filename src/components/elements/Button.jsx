@@ -29,7 +29,7 @@ export function Button({
   const styles = clsx(
     missingClass(className, 'bg-') && variants[variant],
     missingClass(className, 'w-') && widths[width],
-    className,
+    className="py-2 bg-black text-white  rounded-lg px-2 mx-2 my-2",
   );
 
   return <Component className={styles} {...props} />;
