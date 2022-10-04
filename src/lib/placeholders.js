@@ -7,18 +7,18 @@ const PLACEHOLDERS = {
       byline: {
         value: 'The All New Hydrogen Snowboard Exclusively From Shopify',
       },
-      cta: {value: 'Shop Now →'},
+      // cta: {value: 'Shop Now →'},
       handle: 'freestyle',
       spread: {
         reference: {
           mediaContentType: 'IMAGE',
           alt: 'Tracks in the snow leading to a person on a mountain top with a red jacket contrasting to an epic blue horizon with a mountain range in the distance.',
           previewImage: {
-            url: 'https://cdn.shopify.com/s/files/1/0551/4566/0472/files/Hydrogen_Hero_Feature_1.jpg?v=1654902468',
+            url: 'http://cdn.shopify.com/s/files/1/0016/8896/1122/products/e5f5262fa3a14eaa09466dfbcee3bff8a4492b90440e4d5e291ba0a30f7873e3.png?v=1623966695',
           },
           id: 'gid://shopify/MediaImage/29259478466616',
           image: {
-            url: 'https://cdn.shopify.com/s/files/1/0551/4566/0472/files/Hydrogen_Hero_Feature_1.jpg?v=1654902468',
+            url: 'http://cdn.shopify.com/s/files/1/0016/8896/1122/products/e5f5262fa3a14eaa09466dfbcee3bff8a4492b90440e4d5e291ba0a30f7873e3.png?v=1623966695',
             width: 2500,
             height: 3155,
           },
@@ -29,11 +29,11 @@ const PLACEHOLDERS = {
           mediaContentType: 'IMAGE',
           alt: 'A snowboarder standing on a mountain top in choppy snow, shows off the back of his snowboard which reads Hydrogen in a cursive script.',
           previewImage: {
-            url: 'https://cdn.shopify.com/s/files/1/0551/4566/0472/files/Hydrogen_Hero_Feature_2.jpg?v=1654902468',
+            url: 'http://cdn.shopify.com/s/files/1/0016/8896/1122/products/e5f5262fa3a14eaa09466dfbcee3bff8a4492b90440e4d5e291ba0a30f7873e3.png?v=1623966695',
           },
           id: 'gid://shopify/MediaImage/29259478499384',
           image: {
-            url: 'https://cdn.shopify.com/s/files/1/0551/4566/0472/files/Hydrogen_Hero_Feature_2.jpg?v=1654902468',
+            url: 'http://cdn.shopify.com/s/files/1/0016/8896/1122/products/e5f5262fa3a14eaa09466dfbcee3bff8a4492b90440e4d5e291ba0a30f7873e3.png?v=1623966695',
             width: 2500,
             height: 3155,
           },
@@ -44,28 +44,28 @@ const PLACEHOLDERS = {
       loading: 'eager',
     },
     // secondaryHero
-    {
-      heading: {value: 'The Winter 2022 Collection'},
-      byline: {value: 'Just Dropped'},
-      cta: {value: 'Shop Now →'},
-      handle: 'winter-2022',
-      spread: {
-        reference: {
-          mediaContentType: 'IMAGE',
-          alt: 'Three young women in snowboarding attire embracing and laughing while snow falls around them',
-          previewImage: {
-            url: 'https://cdn.shopify.com/s/files/1/0551/4566/0472/files/Collection_Feature_Wide.jpg?v=1654902160',
-          },
-          id: 'gid://shopify/MediaImage/29259478302776',
-          image: {
-            url: 'https://cdn.shopify.com/s/files/1/0551/4566/0472/files/Collection_Feature_Wide.jpg?v=1654902160',
-            width: 5000,
-            height: 2500,
-          },
-        },
-      },
-      spreadSecondary: null,
-    },
+    // {
+    //   heading: {value: 'The Winter 2022 Collection'},
+    //   byline: {value: 'Just Dropped'},
+    //   cta: {value: 'Shop Now →'},
+    //   handle: 'winter-2022',
+    //   spread: {
+    //     reference: {
+    //       mediaContentType: 'IMAGE',
+    //       alt: 'Three young women in snowboarding attire embracing and laughing while snow falls around them',
+    //       previewImage: {
+    //         url: 'https://cdn.shopify.com/s/files/1/0551/4566/0472/files/Collection_Feature_Wide.jpg?v=1654902160',
+    //       },
+    //       id: 'gid://shopify/MediaImage/29259478302776',
+    //       image: {
+    //         url: 'https://cdn.shopify.com/s/files/1/0551/4566/0472/files/Collection_Feature_Wide.jpg?v=1654902160',
+    //         width: 5000,
+    //         height: 2500,
+    //       },
+    //     },
+    //   },
+    //   spreadSecondary: null,
+    // },
     // tertiaryHero
     {
       heading: {value: 'From the Slopes to the Chalet'},
